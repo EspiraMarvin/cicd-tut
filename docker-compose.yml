@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  app:
+    image: 'react_cicd_i'
+    build: .
+    container_name: react_cicd_c
+    ports:
+      - '3000:3000'
+    volumes:
+      - .:/app
+      - .:/react_cicd
+      - .:/node_modules
+    stdin_open: true
+    tty: true  
