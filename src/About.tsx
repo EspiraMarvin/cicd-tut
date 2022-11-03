@@ -10,7 +10,7 @@ export default function About() {
   return (
     <div>
       <div className="App-header">
-        <h3>About !!</h3>
+        <h3>About</h3>
         <Link to="/">
           <button
             style={{
