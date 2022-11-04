@@ -36,6 +36,7 @@ jobs:
 
     - run: ls -s ~/actions-runner/cicd-react/react-tut-test/react-tut-test /var/www/react-cicd
     
+    
     # - run: mv /var/www/cicd-tut1/cicd-tut1/cicd-tut/cicd-tut/build /var/www/cicd-tut1/cicd-tut1/cicd-tut/cicd-tut # wont work, it just copied to the folder it was
 
     # - run: mv /var/www/cicd-tut1/cicd-tut1/cicd-tut/cicd-tut/build /var/www/cicd-tut1/cicd-tut1/cicd-tut # but can move to a less nested directory
